@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2.6.2
+`2021-01-29`
+
+- 修复 Tooltip 包裹 `disabled` 态 Button 时无法消失的问题（2.6.0 引入）
+- 修复 TextArea 在 `showCount` 时 `size="full"` 不生效的问题
+- 修复 SearchBox 在 Mac Chrome 下输入法未完成时回车触发 `onSearch` 的问题
+- 优化下拉组件键盘交互
+
+---
+
 ## 2.6.1
 `2021-01-25`
 

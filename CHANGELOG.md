@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2.6.3
+`2021-02-02`
+
+- Dropdown / Select 新增 `footer` 属性支持自定义渲染浮层底部内容
+- Pagination 新增 `pageCountChangingResetType` 属性支持当页码大于总页数时自动重置当前页码
+- Guide 步骤新增 `arrowPointAtCenter` / `placementOffset` 属性支持设置偏移及箭头指向
+- 修复 Cascader 在 `"menu"` 模式下菜单列表变化浮层位置未更新的问题
+- 修复 Table `recordKey` 取值为数字 0 时被转空字符串的问题
+- 优化 Menu 相关组件属性透传以支持气泡包裹
+
+---
+
 ## 2.6.2
 `2021-01-29`
 

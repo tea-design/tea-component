@@ -12,7 +12,7 @@
 
 - Guide 步骤新增 `hideCount` 属性支持隐藏计数显示
 - 修复 Cascader 设置 `style` 不生效的问题（2.6.0 引入）
-- 修复 Cascader 传递不存在对于选项的 `value` 时报错的问题
+- 修复 Cascader 传递不存在对应选项的 `value` 时报错的问题
 - 补充部分工具方法导出
 
 ---

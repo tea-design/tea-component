@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2.6.6
+`2021-02-22`
+
+- Popover 新增右键触发 `trigger`
+- 修复 Table selectable 插件 shift 连选可选中禁用项的问题
+- 修复 Table selectable/radioable 插件配合 draggable 插件使用报错的问题
+- 修复 Cascader 多选叶结点包含相同 `value` 项导致 key 冲突引发的展示问题
+- 修复 Cascader 多选 `data` 缺失已选项对应值时报错的问题
+- 修复 Affix `className` 及 `style` 设置层级不正确的问题
+
+---
+
 ## 2.6.5
 `2021-02-08`
 

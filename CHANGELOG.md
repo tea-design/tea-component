@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 2.6.7
+`2021-03-04`
+
+- Table draggable 插件新增 `targetColumnKey` 属性支持指定手柄列
+- 修复 Cascader 动态加载切换父级无法刷新的问题
+- 修复 Cascader 异步加载模式下搜索报错的问题
+- 修复 Tree 无法多节点同时异步展开的问题
+- 修复 List.Item 中 `tooltip` 未使用但渲染出结构的问题
+- Menu 项 `tag` 样式优化 & 支持传递 Badge 组件
+- Input.Password 显示图标优化
+- Message 样式定位调整
+- 新增部分图标
+
+---
+
 ## 2.6.6
 `2021-02-22`
 

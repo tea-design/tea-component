@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 2.6.8
+`2021-03-11`
+
+- Form.Item 新增 `tips` 属性支持对项添加描述提示
+- Form.Item 新增 `extra` 属性支持对项添加额外信息（可与 `message` 共存）
+- 修复 TagSearchBox 标签内容过长导致出现滚动时组件无法点开的问题
+- 修复 SegmentMultiple 选项样式类名不生效的问题
+- 修复 Input 意外传递 `children` 导致崩溃的问题
+- 修复 InputPassword 组件在 Form 中默认对齐位置不正确的问题
+- 补充 Pagination 相关类型导出
+
+---
+
 ## 2.6.7
 `2021-03-04`
 

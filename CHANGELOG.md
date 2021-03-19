@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 2.6.9
+`2021-03-19`
+
+- Dropdown 新增 `openDelay` / `closeDelay` 属性支持开关延迟配置
+- Table removeable 插件新增 `targetColumnKey` / `render` 支持自定义列/自定义渲染
+- Select `onChange` 回调中 context 中新增 `option` 参数
+- **修复 Tree 异步加载下不可展开结点在点击时仍触发 `onLoad` 的问题**
+- **修复 Cascader 多选时禁用选项可通过父节点选中的问题**
+- 修复 Table draggable 插件拖起行某些场景下宽度不正确的问题
+- 修复 InputPassword 设置 `size="full"` 不生效的问题
+- 修复 Table 在 IE 下开启虚拟滚动提示区域样式显示异常
+- 修复 RegionSelect 无选项时报错
+
+---
+
 ## 2.6.8
 `2021-03-11`
 

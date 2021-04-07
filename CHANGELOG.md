@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 2.6.10
+`2021-04-07`
+
+- DatePicker 等时间选择相关组件支持时区（配合 `moment-timezone` ）
+- Progress 新增 `strokeColor` / `strokeWidth` / `width` 属性支持自定义样式
+- Guide `onCurrentChange` 新增返回 `context` 包含当前步骤切换信息
+- Collapse
+	- 新增 `accordion` 属性支持手风琴模式
+	- 修复嵌套多层使用时面板展开问题
+- 修复部分样式问题
+
+---
+
 ## 2.6.9
 `2021-03-19`
 

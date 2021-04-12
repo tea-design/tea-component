@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2.6.11
+`2021-04-12`
+
+- **补全全部组件的 `forwardRef`**
+- **补全全部组件的 `displayName`**
+- 移除组件内部 moment ESM 方式的使用（支持 esbuild 构建）
+- 修复 Table 可能产生的卸载后更新 [#333](https://git.code.oa.com/tea-design/tea2/issues/333)
+- 优化 Upload 标签使用 [#332](https://git.code.oa.com/tea-design/tea2/issues/332)
+- 部分样式优化
+
+---
+
 ## 2.6.10
 `2021-04-07`
 

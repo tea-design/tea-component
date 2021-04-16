@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2.6.14
+`2021-04-16`
+
+- Dropdown 新增 `updateDeps` 属性支持定义浮层位置更新的依赖项
+- 修复 TagSearchBox 可能出现的内部 ref 获取为 undefined 导致报错的问题
+- **修复加入 `forwardRef` 导致的部分组件 `children` 类型报错（2.6.11 引入）**
+- **移除了 TagSearchBox 中已 React 废弃的 `componentWillReceiveProps` 生命周期**
+
+---
+
 ## 2.6.13
 `2021-04-14`
 

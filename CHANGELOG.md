@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.6.16
+## 2.6.17
 `2021-04-28`
 
 - 新增 ar 语言包
@@ -13,6 +13,13 @@
 - 修复 Switch 非 `disabled` 下 `loading` 不生效的问题
 - 修复 Layout.Sider 在 Safari 下收起后宽度样式问题
 - 补全 NavMenu.Item 各类型 selected 样式
+
+---
+
+## ~~2.6.16~~
+`-`
+
+*浮层异常，不要用使用该版本*
 
 ---
 

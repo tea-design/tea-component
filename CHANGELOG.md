@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 2.6.16
+`2021-04-28`
+
+- 新增 ar 语言包
+- Cascader 新增 `valueRender` 属性支持自定义选中值渲染
+- ImagePreview 新增 `children` 属性支持自定义触发元素
+- 修正浮层类组件多层叠加时的行为（浮层点击内部产生的二级浮层不关闭自身）
+- **修复 TagSearchBox 受控状态下无法触发已有选项下拉选择的问题（2.6.14 引入）**
+- 修复 Bubble 在 Select 及禁用 Input 上无法弹出的问题
+- 修复 Slider 点击标尺文字发生跳转的问题
+- 修复 Switch 非 `disabled` 下 `loading` 不生效的问题
+- 修复 Layout.Sider 在 Safari 下收起后宽度样式问题
+- 补全 NavMenu.Item 各类型 selected 样式
+
+---
+
 ## 2.6.15
 
 `2021-04-20`

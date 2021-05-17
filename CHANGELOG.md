@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 2.6.18
+`2021-05-17`
+
+- Guide 新增 `nextButtonTheme` 属性支持下一步按钮样式配置
+- Guide 步骤新增 `scrollIntoViewOptions` 属性支持单步骤自动滚动位置控制
+- Table draggable 内置版本与第三方版本行为/属性对齐
+- 修复 Select `listWidth` 小于样式 minWidth 时无效的问题
+- 移除 ImagePreview 外层多余层级
+- 升级依赖以解决 React 17 peerDependencies 报错
+
 ## 2.6.17
 `2021-04-28`
 

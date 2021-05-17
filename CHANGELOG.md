@@ -10,6 +10,8 @@
 - 移除 ImagePreview 外层多余层级
 - 升级依赖以解决 React 17 peerDependencies 报错
 
+---
+
 ## 2.6.17
 `2021-04-28`
 

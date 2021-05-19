@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 2.6.19
+`2021-05-19`
+
+- 升级相关依赖解决 npm install 出现的 react 17 peerDependencies 异常
+- ImagePreview 新增 `maskClosable` 属性
+- 修复 Dropdown/Select `onFocus` 失效的问题
+- 修复 Select 顶部使用 ErrorTip 过长时未展示的问题
+- 修复移动端 Select 搜索无法点开的问题
+- 修复 Table 无数据时表头固定列失效
+- 修复 Transition 退出动画未结束时更新 children 进入内容未更新问题
+- 修复 Switch 切换动画未生效的问题
+- Pagination 总数为 0 时不触发 pageCountChangingReset
+- Pagination 页码输入支持失焦时生效
+
+---
+
 ## 2.6.18
 `2021-05-17`
 

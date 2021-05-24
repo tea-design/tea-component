@@ -1,10 +1,24 @@
 # CHANGELOG
 
+## 2.6.21
+`2021-05-24`
+
+- Table key 相关属性 `.` 路径切割兼容原有包含 `.` 的字符串 key（整体 key 值不存在时再进行切割遍历）
+```
+如 `recordKey` 设置为 `"info.name"` 时：
+优先读取 `record["info.name"]`，该值不存在时读取 `record.info.name`
+```
+- 修复 Table 不传 `records` 时报错的问题（2.6.19 引入）
+- 修复 Select unmount 时可能产生 warning 的问题
+
+
+---
+
 ## 2.6.20 ❤️
 `2021-05-20`
 
 - 修复 StatusTip 样式问题（2.6.19 引入）
-- 修复 ListSubMenu hover 时可能产生 warning 的问题
+- 修复 ListSubMenu unmount 时可能产生 warning 的问题
 
 ---
 

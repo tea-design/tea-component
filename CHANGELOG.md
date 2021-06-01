@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 2.6.22
+`2021-06-01` 😋
+
+- 修复 Table 下 draggable / columnsDraggable 拖拽插件浏览器兼容问题
+	- 在 QQ 浏览器下无法使用
+	- 在 FireFox 下拖拽导致打开新页面
+- 修复 Table 按路径切割 key 获取值时值不存在导致报错的问题
+- 修复 Cascader 选中值包含非字符串 `label` 时展示异常的问题
+- 修复 Switch 点击时 `onClick` 事件被触发多次的问题
+- 优化 AutoComplete 组件类型，类型上兼容包裹非 Input 组件
+- 根目录直接导出 TextArea 组件
+
+---
+
 ## 2.6.21
 `2021-05-24`
 
@@ -14,8 +28,8 @@
 
 ---
 
-## 2.6.20 ❤️
-`2021-05-20`
+## 2.6.20
+`2021-05-20` ❤️
 
 - 修复 StatusTip 样式问题（2.6.19 引入）
 - 修复 ListSubMenu unmount 时可能产生 warning 的问题

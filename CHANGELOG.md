@@ -1,5 +1,61 @@
 # CHANGELOG
 
+## 2.7.0  ⭐
+
+`2021-11-01`
+
+- 新增 Rate 组件
+- 新增 Timeline 组件
+- Tree
+	- **渲染结构更新，节点铺平渲染**
+	- 新增 `height` 属性支持开启虚拟滚动以提升大数据时性能
+	- 新增 `selectValueMode` 属性支持选中值格式配置
+	- 新增 `defaultExpandAll` \/ `defaultExpandParent` \/ `forceExpandParent` 属性支持展开控制
+	- 新增 `fullActivable` 属性支持整个节点范围点击可控制高亮
+- Select
+  - **聚焦/失焦行为优化，列表项不再响应 `onFocus` 事件**
+  - **移除 `type` 属性，原有设置 `type="native"` 的组件保留支持原生下拉样式，其他转为模拟下拉**
+  - 新增 `virtual` 属性，支持关闭虚拟滚动，关闭后下拉列表宽度可自适应内容宽
+  - 新增 `matchButtonWidth` 属性支持设置下拉列表与下拉按钮同宽
+- Tabs
+	- **样式优化，`addon` 区域布局样式更新**
+	- 新增 `activeTabAutoScrollIntoView` 属性支持配置自动滚动到当前项的行为
+	- 修复宽度变化时滚动状态未重置的问题
+- Table
+  - **虚拟滚动 scrollable 及多选 selectable 插件重构以提升大数据时性能**
+  - 修复 draggable 插件拖起行某些场景下宽度不正确的问题
+  - 修复 selectable 变更回调 `context` 中 `check.value` 可能相反的问题
+- InputNumber
+	- 新增 `formatter` / `parser` 属性支持格式化显示
+	- 新增 `allowEmpty` 属性允许使用空值
+	- 新增 `inputProps` 支持设置输入框属性
+- TagSelect
+  - 新增 `footer` 属性支持配置尾部内容
+  - 默认 `value` 选中被禁用的项时对应标签不显示关闭按钮
+  - 聚焦失焦行为优化，下拉列表不再响应 mousedown 及 focus 事件
+- Cascader
+ - 新增 `valueMode` / `showMode` 属性支持值格式及展示模式配置
+ - 修复开启搜索后 `disabled` 不生效的问题
+- Text
+  - 支持 `tooltip` 传递 boolean 值以提示与原文相同内容
+  - 修复 `copyable` 和 `overflow` 无法同时使用的问题
+- SearchBox
+	- 新增 `searchBoxRef` 参数执行外层容器
+	- 修复禁用时按钮仍可点击的问题 
+- Grid 支持响应式栅格
+- TagSearchbox 自定义值选择器渲染新增 `onOperationalKeyDown` 属性支持监听部分按键事件
+- Collapse 新增 `destroyInactivePanel` 支持销毁未激活面板
+- 浮层类组件新增 `flipped` 属性支持配置距离可视范围空间不足时是否翻转方向
+- 修复 Menu 组件收起状态样式在 Safari 下异常的问题
+- 修复 TimePicker `clearable` 属性不生效的问题
+- 修复 TimePicker 键盘事件无响应的问题
+- 修复 Upload 获取 `action` 失败时异常未捕获的问题
+- 修复 Password 禁用和只读状态
+- 修复 Alert 轮播包含空元素时的行为
+- 浮层类组件自定义 `trigger` 类型优化
+
+---
+
 ## 2.6.22
 `2021-06-01` 😋
 

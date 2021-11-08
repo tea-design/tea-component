@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## 2.7.2
+
+`2021-11-08`
+
+- 修复 Tree 多层自定义节点无法渲染的问题
+- 优化 Table selectable 插件 `onChange` 中 `context` 字段的数据
+- 优化 RegionSelect `shortcut` 属性使用
+
+---
 
 ## 2.7.1
 

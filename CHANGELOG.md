@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## 2.7.3
+
+`2021-12-16`
+
+- Slider 新增多段及点选择模式
+- TagSelect 新增 `hideCloseButton` 属性
+- Table 拖拽新增 `onDragStart` 事件
+- Tree 支持点击和展开时回调当前节点数据
+- Menu 项图标配置支持自定义节点
+- SelectMultiple 无 `options` 时显示 `value`
+- 修复 InputNumber 在 `allowEmpty` 时初始值不生效的问题
+- 修复 TagSearchBox 值选择框可能溢出可视范围的问题
+- 修复 TagSelect 设置 `footer` 时无法点击的问题
+- 修复 TagSelect 键盘选择问题
+- 修复 Tree 操作区域点击冒泡
+- 修复 RegionSelect 缓存报错及数字 0 展示问题
+
+---
+
 ## 2.7.2
 
 `2021-11-08`

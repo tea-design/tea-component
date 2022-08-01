@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 2.7.6
+`2022-06-20`
+- 修复 DatePicker 组件偶尔出现无法切换日期面板问题
+
+## 2.7.5
+`2022-06-17`
+- 修复 DatePicker 组件 value 为空报错的问题
+
+## 2.7.4
+`2022-06-09`
+- Table 列宽度调整插件 新增支持单行
+-  Cascader data 的 label 新增支持 `ReactNode`
+-  TimePicker 新增毫秒级别，新增输入修改时间
+-  DatePicker RangePicker 新增季度 月份选择，新增毫秒级别，新增输入修改日期
+-  TagSearchBox 新增删除tag的 `onTagDelete`事件
+-  Upload 新增支持在 `beforeUpload` 转换文件
+-  Guide 样式优化
+-  ImagePreview 增加 Modal `ClassName` 透传
+- 修复 Drawer 切换后组件内容没变化
+
 ## 2.7.3
 
 `2021-12-16`

@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 2.7.7
+`2022-09-22`
+- 新增 Avatar 头像组件
+- TagSelect 新增 `removeable` 属性
+- Table 虚拟滚动新增 `updateDeps` 属性支持强制刷新
+- Select 多选新增 `onlySubmitFilterFromAll` 属性只全选过滤后的字段
+- Tree 事件 `onSelect` 增加 `nodeContent` 参数
+- Tree 组件虚拟滚动支持更多属性
+- RegionOption 组件支持自定义类名属性
+- Copy 支持修改覆盖层样式
+- RangPicker 支持分组 placeholder 设置
+- TimeRangePicker 支持清空
+- 修复 Table 组件开启固定列可能导致的性能问题
+- 修复 Table 组件 ResizeObserver 没有清理的问题
+- 修复 RangePicker 设置不同日期同一时间 range 后无法选择问题
+- 修复 TimePicker 可能出现的 topOption 元素不存在报错问题
+- 修复 DatePicker 时间组件样式问题
+- 优化 AutoComplete 弹出层动画
+- 优化 InputPassword tabindex 聚焦
+- 优化 RangPicker 样式
+
 ## 2.7.6
 `2022-06-20`
 - 修复 DatePicker 组件偶尔出现无法切换日期面板问题

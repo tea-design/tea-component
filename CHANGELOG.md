@@ -1,5 +1,69 @@
 # CHANGELOG
 
+## 2.8.0
+`2024-07-18`
+
+ <img src="https://github.com/user-attachments/assets/b0daee67-3546-462c-85f3-c009ed962f97" width="84" />
+ 
+#### 升级必读
+
+🌟 新的样式方案使用了 CSS 变量，你需要引入一个主题以及新的样式文件：
+
+- 从 `tea-component/dist/themes/` 下选择主题引入
+- 把 `tea-component/dist/tea.css` 替换为 `tea-component/dist/tea-themeable.css`
+
+#### 主要变化
+- 💄 全新的 UI 视觉风格，更轻量、 更高效的视觉传达，引入更高辨识度的线性图标库
+- 💄 全新的主题方案，支持多主题和深浅模式
+- 🌟 新增 Space 组件，轻松设置组件间距与对齐方式
+- 🔥 新增独立图标库，支持自定义尺寸和颜色
+- Theme
+	- 🔥 支持在 JS 中使用 CSS 变量
+	- 🔥 支持独立配置指区块的 Theme Mode
+- InputNumber 
+	- 🐞 InputNumber 组件设置 allowEmpty 属性后，value 从 null 变成 有值（100）时，输入框不显示值的问题
+- ImagePreview
+	- 🆕 ImagePreview 组件支持传入 img 元素的原生属性 
+- Table
+	-  🐞 修复当 table 存在 fixed 列时，resizable 插件宽度计算有误的问题
+	 - 🐞 修复表头文字截断异常等问题
+	- 💄 优化表头图标对齐方式
+	- 💄 优化表格横向滚动时，状态内容（autotip）居中显示
+	- 🪄 重构部分实现以提高渲染性能
+- FormItem
+	-  🆕 增加 `tipsClassName` 和 `tipsStyle` 属性控制 tips 样式  
+- Tag
+	- 🆕 新增属性 `shapeType` `variant` `size` `before` `after`
+	- 🗑 废弃属性 `dark` `bordered`
+- TimePicker
+	- 🐞 修复传入value 超出限制直接点确认无法设置所选时间
+- SearchBox
+	- 🆕 新增属性 `iconPlacement`
+- List
+	- 🆕 `type` 属性值新增 `plain`
+	- 🆕 新增子组件`List.ItemButton` `List.ItemDecorator` `List.ItemContent` `List.SearchBox` `List.ListDivider`等
+	- 🆕 新增 9 个 List 的使用场景
+	- 💄 `List.Item` 高度由 30px 调整为 **32px**
+- TagSearchbox
+	- 💄 对 TagSearchbox 单独实现的类似 Tag 组件的 className 调整成和 Tag 组件进行统一，尽量确保表现一致
+- Card
+	- 💄 调整边框、投影、hover 状态样式
+	- 💄 调整 Card.Body 内间距、标题字号
+- Datepicker
+	- 💄 区间选择，宽度由 200px 调整为 **220px**
+	- 💄 包含时间的区间选择，宽度由 300px 调整为 **325px**
+	- 💄 包含毫秒的区间选择，宽度由 350px 调整为 **360px**
+- Checkbox & Radio
+	- 💄 `tea-form-check__label` 布局调整为 `inline-flex` 布局
+
+
+---
+
+## 2.7.9
+`2023-03-13`
+
+- Drawer 样式层级调整
+
 ## 2.7.8
 `2022-09-29`
 
